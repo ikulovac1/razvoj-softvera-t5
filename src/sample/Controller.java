@@ -53,6 +53,7 @@ public class Controller {
         LIspis.getFocusModel().focus(0);
         setTextPropetryUnBind();
 
+
         LIspis.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Korisnik>() {
             @Override
             public void changed(ObservableValue<? extends Korisnik> observableValue, Korisnik korisnikOld, Korisnik korisnikNew) {
